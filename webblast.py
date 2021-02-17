@@ -156,11 +156,6 @@ def retrieve(RID, outfmt, maxN = None, outfile = None):
 
 # This method calls status every 5 seconds while printing updates,
 # then calls retrieve if the status is READY
-#rewrite this; it needs to go all the way from beginning to end; submit, status on loop
-# ooh but i want the ability for status to go back on hold...
-# rewrite this so its running its own session, making its own requests
-
-
 def monitor(RID, outfmt = 6):
     while True:
         stat = status(RID)
