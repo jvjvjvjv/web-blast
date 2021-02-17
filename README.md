@@ -20,3 +20,4 @@ python web_blast.py list
 #retrieve previous search results
 python web_blast.py get [RID] -outfmt 6
 ```
+To install, copy both python scripts to the same directory. 
